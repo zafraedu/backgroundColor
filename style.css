@@ -1,0 +1,185 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+:focus {
+  outline: 0;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* CODIGO */
+
+h1 {
+  font-size: 200px;
+  margin-top: 230px;
+  margin-left: 300px;
+}
+.colors {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  top: 250px;
+  left: -100px;
+  transition: all 0.4s;
+}
+.colors:hover {
+  width: 80px;
+  height: 440px;
+  left: -10px;
+  top: 120px;
+  padding: 10px 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.colors div {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 20px 0 20px 20px;
+}
+.red {
+  background-color: #f00;
+}
+.green {
+  background-color: #0f0;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: #ffff00;
+}
+.magenta {
+  background-color: #f0f;
+}
+.orange {
+  background-color: #ff9900;
+}
+
+.red-back {
+  background-color: #f00;
+  color: #fff;
+  transition: all 0.5s;
+}
+.green-back {
+  background-color: #0f0;
+  transition: all 0.5s;
+}
+.blue-back {
+  background-color: #00f;
+  color: #fff;
+  transition: all 0.5s;
+}
+.yellow-back {
+  background-color: #ffff00;
+  color: #000;
+  transition: all 0.5s;
+}
+.magenta-back {
+  background-color: #f0f;
+  color: #fff;
+  transition: all 0.5s;
+}
+.orange-back {
+  background-color: #ff9900;
+  color: #fff;
+  transition: all 0.5s;
+}
