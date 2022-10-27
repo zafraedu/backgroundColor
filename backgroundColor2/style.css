@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  font-family: "Roboto Mono", monospace;
+}
+.contenedor {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.hexSubmit {
+  margin-top: 50px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+#hex,
+#submit {
+  height: 75px;
+}
+
+#hex {
+  font-size: 70px;
+  float: left;
+  background: #fff;
+  width: 350px;
+  border-radius: 50px 0 0 50px;
+}
+
+#submit {
+  font-size: 35px;
+  background-color: #5bb0e9;
+  border: none;
+  width: 70px;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  transition: 500ms all;
+}
+#submit:hover {
+  font-size: 50px;
+  width: 80px;
+}
+#colorPicker {
+  margin: 30px auto 0px auto;
+  width: 75px;
+  height: 75px;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+#colorPicker::-webkit-color-swatch {
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: inset 1px 1px #fff, inset -1px -1px #fff;
+}
